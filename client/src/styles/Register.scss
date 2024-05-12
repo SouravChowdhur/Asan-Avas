@@ -1,0 +1,123 @@
+@import "./variables.scss";
+@import "./breakpoints.scss";
+
+.register {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../../public/assets/register.jpg") center;
+  background-size: 1400px;
+
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+
+    @include lg {
+      width: 60%
+    }
+
+    @include mm {
+      width: 80%
+    }
+
+    &_form {
+      display: flex;
+     
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      input {
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.1); /* Lighter background color for better contrast */
+        border: none;
+        border-radius: 5px; /* Rounded corners for input fields */
+        outline: none;
+        color: white;
+        input:not(:placeholder-shown):focus {
+          background: transparent;
+          
+          /* or background: none; */
+        }
+
+        &::placeholder {
+          
+          color: rgba(255, 255, 255, 0.8);
+        }
+
+        &:focus {
+          border-bottom-color: white; /* Change border color on focus */
+        }
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+        cursor: pointer;
+        color: white;
+        font-size: 14px;
+
+        img {
+          width: 25px;
+        }
+      }
+
+      button {
+        margin-top: 15px;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        
+        @include buttonStyle;
+        width: 50%;
+
+        &:hover {
+          box-shadow: 0px 0px 10px 5px rgb(241, 236, 236);
+          padding-right: 24px;
+          padding-left: 10px;
+        }
+
+        &:after {
+          content: '»';
+          
+          position: absolute;
+          opacity: 0;
+          top: 8px;
+          right: -20px;
+          transition: 0.8s;
+        }
+
+        &:hover:after {
+          opacity: 1;
+          right: 40px;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 15px;
+      margin-top: 10px;
+      text-align: center;
+
+      &:hover {
+        text-decoration: underline;
+        color: white;
+      }
+    }
+  }
+}

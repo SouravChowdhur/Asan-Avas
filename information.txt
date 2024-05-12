@@ -1,0 +1,10 @@
+
+In React, a .scss file typically refers to a file written in SCSS (Sassy CSS) syntax. SCSS is a superset of CSS, meaning it extends CSS with additional features like variables, nesting, and mixins.
+
+When you're working on a React project, using SCSS files allows you to write stylesheets in a more organized and maintainable manner compared to traditional CSS. React applications often adopt a component-based architecture, and SCSS aligns well with this approach by providing features like scoped styles, which can be encapsulated within individual components.
+
+To use SCSS in a React project, you typically need to set up a build process that compiles SCSS files into regular CSS files. This can be achieved using tools like Webpack, Parcel, or Create React App, often in conjunction with loaders or plugins specifically designed to handle SCSS files. Once configured, you can import SCSS files directly into your React components and leverage their enhanced features for styling.
+
+
+
+

@@ -1,0 +1,10 @@
+react-router-dom
+saas
+
+@mui/material  --  The @mui/material npm package is a part of the Material-UI library, which is a popular React UI framework based on Google's Material Design principles. The @mui/material package specifically contains the core components and styling utilities provided by Material-UI.
+
+@mui/icons-material
+
+@emotion/react  --  The @emotion/react package is a key part of the Emotion library, which is a popular CSS-in-JS solution for styling React applications. Emotion allows you to write CSS styles directly within your JavaScript code, providing a powerful and flexible approach to styling React components.
+
+@emotion/styled 

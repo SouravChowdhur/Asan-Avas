@@ -1,0 +1,12 @@
+User Sign Up and Log In
+Sign Up - First Name, Last Name, Email, Password-Confirm Password(Password Does not match), Upload Profile Photo
+Login by email and Password
+After Login, User is visited by his/her profile photo and can click on following functionalities - Trip List, Wish List, Property List, Reservation List, Become A Host, Log Out
+Catagory wise property - like Beachfront, Windmills, Iconic Cities, Countryside etc...
+Logged in user can add property to wish List
+Details of each property listing - Title, No of bedroom, bed and bath, Host Name, description, Highlights, Utilities, Calender to select start and end date, respective calculated total price to pay and can book 
+One can see booked property by seeing trip listing
+One can publish his/her own property by click become a host - Catagory selection, type of place, address, Number of bedrooms, beds and bathrooms, Utilities, add photos of the place, delete photos, move photos in new order, upload new photos, Title, description, highlights, price per night and create a new listing
+One can see his/her property in property listing
+Navbar serach box offer searching to user of any place
+Responsive Feature 
